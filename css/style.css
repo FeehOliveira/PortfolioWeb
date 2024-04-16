@@ -1,3 +1,20 @@
-* {
-    font-family: Poppins, Raleway;
+html {
+    color: #fff;
+}
+
+body {
+    background-color: #282828;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+
+}
+
+.cabecalho{ 
+    background-color: blue;
+    display: flex;
+}
+
+.redes-sociais {
+
 }
