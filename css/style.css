@@ -13,8 +13,25 @@ body {
 .cabecalho{ 
     background-color: blue;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
 }
 
-.redes-sociais {
+.cabecalho .logo{
+    background-color: gray;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 55px;
 
+    font-family: "Raileway", sans-serif;
+}
+
+.cabecalho a:hover .logo{
+    color: #9443d8;
+    border: 2px solid #9443d8;
 }
